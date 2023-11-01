@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="container">
+                <div class="banners">
+                    <img src="images/banner1.svg" alt="" width="320px" height="212px">
+                    <img src="images/banner2.svg" alt="">
+                    <img src="images/banner1.svg" alt="">
+                </div>
+                <div class="search-field">
+                    <img src="images/search.svg" alt="" width="20px" height="20px">
+                    <p class="search-text">Search contacts</p>
+                    <img src="images/mic.svg" alt="" width="24px" height="24px" style="margin-left: auto;">
+                </div>
+                <div class="category-items">
+                    <p class="category-tabs" style="margin-right: 16px; opacity: 0.5;">History</p>
+                    <p class="category-tabs" style="margin-right: 16px; font-family: Noto Sans, sans-serif; font-weight: 600; color: #3c4154;">For You</p>
+                    <p class="category-tabs" style="opacity: 0.5;">Favourites</p>
+                    <img src="images/burger-menu.svg" alt="" width="24px" height="24px" style="margin-left: auto;">
+                </div>
+                <div class="avatars">
+                    <div class="avatars-content">
+                        <img src="images/avatar1.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Yuval Samson</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar2.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Karine perl ch..</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar3.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Avior Aboo</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar4.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Zack Kawazo..</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar5.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Bracha Golde..</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar6.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Etana Epstei..</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar7.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Dor Cohen</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar8.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Dor Cohen</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar9.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Dor Cohen</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar7.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Dor Cohen</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar8.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Dor Cohen</p>
+                    </div>
+                    <div class="avatars-content">
+                        <img src="images/avatar9.svg" alt="" width="88px" height="88px">
+                        <p class="avatar-name">Dor Cohen</p>
+                    </div>
+                </div>
+            </div>
+        <div class="navigation-bar">
+            <div class="nav-items-block">
+            <div class="nav-items">
+                <img src="images/home_selected.svg" alt="" width="24px" height="24px">
+                <p class="nav-title" style="color: #0098f5;">Home</p>
+            </div>
+            <div class="nav-items">
+                <img src="images/messege.svg" alt="" width="24px" height="24px">
+                <p class="nav-title">SMS</p>
+            </div>
+            <div class="nav-items">
+                <img src="images/keypad.svg" alt="" width="52px" height="52px">
+            </div>
+            <div class="nav-items">
+                <img src="images/lookup.svg" alt="" width="24px" height="24px">
+                <p class="nav-title">Lookup</p>
+            </div>
+            <div class="nav-items">
+                <img src="images/kebab.svg" alt="" width="24px" height="24px">
+                <p class="nav-title">More</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+        }
+        html, body {
+            height: 100%;
+            outline: none;
+            line-height: 1;
+        }
+        body {
+            font-family: Inter, sans-serif;
+            background-color: #fff;
+        }
+        @media (max-width: 768.98px) {
+            .wrapper {
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                min-height: 100%;
+            }
+            .content {
+                flex: 1 1 auto;
+            }
+            .container {
+                max-width: 768.98px;
+                margin: 0 auto;
+                padding: 0px 10px;
+            }
+            .banners {
+                display: flex;
+                gap: 10px;
+                padding: 20px 0px;
+            }
+            .search-field {
+                display: flex;
+                align-items: center;
+                padding: 0px 12px 0px 16px;
+                margin: 0px 6px;
+                background-color: #fff;
+                height: 44px;
+                border: 1px solid rgba(0, 0, 0, 0.10);
+                border-radius: 43px;
+                box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.16);
+            }
+            .search-text {
+                font-size: 16px;
+                font-weight: 400;
+                color: #707d95;
+                margin-left: 8px;
+            }
+            .category-items {
+                display: flex;
+                align-items: center;
+                margin: 19px 18px 0px 22px;
+            }
+            .category-tabs {
+                font-size: 14px;
+                font-weight: 500;
+                color: #707d95;
+            }
+            .avatars {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: start;
+                margin: 21px 0px 0px 0px;
+                justify-content: center;
+                gap: 24px 16px;
+                height: 307px;
+                overflow-x: auto;
+            }
+            .avatar-name {
+                margin-top: 8px;
+                font-family: Noto Sans,sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                text-align: center;
+                color: #3c4154;
+            }
+            .navigation-bar {
+                position: absolute;
+                width: 100%;
+                height: 72px;
+                background-color: #fff;
+                border: 1px solid rgba(0, 0, 0, 0.10);
+                padding: 10px 29px 10px 27px;
+            }
+            .nav-items-block {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .nav-title {
+                margin-top: 3px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #707d95;
+            }
+        }
+    </style>
+</body>
+</html>
